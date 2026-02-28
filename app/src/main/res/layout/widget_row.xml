@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#000000"
+    android:paddingStart="2dp"
+    android:paddingEnd="2dp">
+
+    <TextView
+        android:id="@+id/row_time"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF41"
+        android:textSize="10sp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/row_temp"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00FF41"
+        android:textSize="10sp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/row_humidity"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00CC34"
+        android:textSize="10sp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/row_precip_prob"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00CC34"
+        android:textSize="10sp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/row_precip"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00CC34"
+        android:textSize="10sp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/row_wind"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:textColor="#00AA2B"
+        android:textSize="10sp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/row_pollen"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:textColor="#009922"
+        android:textSize="10sp"
+        android:fontFamily="monospace" />
+
+    <TextView
+        android:id="@+id/row_cosmic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#007A1E"
+        android:textSize="10sp"
+        android:fontFamily="monospace" />
+
+</LinearLayout>
