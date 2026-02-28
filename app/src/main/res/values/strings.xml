@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather Today</string>
+    <string name="settings_title">Weather Today - Settings</string>
+    <string name="widget_description">Hourly weather and space info widget</string>
+    <string name="label_location_name">LOCATION NAME</string>
+    <string name="label_latitude">LATITUDE</string>
+    <string name="label_longitude">LONGITUDE</string>
+    <string name="label_timezone">TIMEZONE</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_refresh">REFRESH WIDGET</string>
+</resources>
