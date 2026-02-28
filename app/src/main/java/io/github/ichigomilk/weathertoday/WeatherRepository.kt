@@ -44,7 +44,7 @@ class WeatherRepository {
     private fun fetchWeather(lat: String, lon: String, timezone: String): JsonObject {
         val url = "https://api.open-meteo.com/v1/forecast" +
             "?latitude=$lat&longitude=$lon" +
-            "&hourly=temperature_2m,relativehumidity_2m,precipitation_probability," +
+            "&hourly=temperature_2m,relative_humidity_2m,precipitation_probability," +
             "precipitation,windspeed_10m" +
             "&timezone=${timezone.replace("/", "%2F")}" +
             "&forecast_days=2"
@@ -115,7 +115,7 @@ class WeatherRepository {
         val temps = weather.getAsJsonObject("hourly")
             ?.getAsJsonArray("temperature_2m")?.map { it.safeDouble() } ?: emptyList()
         val humids = weather.getAsJsonObject("hourly")
-            ?.getAsJsonArray("relativehumidity_2m")?.map { it.safeInt() } ?: emptyList()
+            ?.getAsJsonArray("relative_humidity_2m")?.map { it.safeInt() } ?: emptyList()
         val precipProbs = weather.getAsJsonObject("hourly")
             ?.getAsJsonArray("precipitation_probability")?.map { it.safeInt() } ?: emptyList()
         val precips = weather.getAsJsonObject("hourly")
