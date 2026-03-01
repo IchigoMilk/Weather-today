@@ -8,5 +8,5 @@
     <string name="label_longitude">LONGITUDE</string>
     <string name="label_timezone">TIMEZONE</string>
     <string name="btn_save">SAVE</string>
-    <string name="btn_refresh">REFRESH WIDGET</string>
+    <string name="btn_refresh">REFRESH</string>
 </resources>

@@ -149,5 +149,37 @@
 
         </LinearLayout>
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#004D10"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tv_weather_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00FF41"
+            android:textSize="11sp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:text="-- NO DATA --"
+            android:layout_marginBottom="4dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_weather_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#00FF41"
+                android:textSize="10sp"
+                android:fontFamily="monospace" />
+
+        </HorizontalScrollView>
+
     </LinearLayout>
 </ScrollView>
